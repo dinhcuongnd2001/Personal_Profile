@@ -33,5 +33,16 @@
 }
 
 @media (max-width:767px){
-    
+    .about .about-content .personal-info,
+    .about .about-content .skills,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .service .service-item,
+    .portfolio .portfolio-item,
+    .contact .contact-info-item,
+    .contact-form .form-item
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
